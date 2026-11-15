@@ -4,7 +4,7 @@
   <p>
     $$
 \begin{aligned}
-V_x(t)=V_{0x}\sin(\alpha) \\
+V_x(t)=V_{0}\sin(\alpha) \\
 V_y(t)=V_0 \cos(\alpha) - gt \\
 that \,  in \, physics \, velocity \, equations \\
 h =\overrightarrow{MM'} \\
