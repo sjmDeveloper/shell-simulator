@@ -37,5 +37,5 @@ cd your_file_path
 
 2. Compile the code with SFML libraries linked:
 ```bash
-g++ main.cpp -o physics_sim -lsfml-graphics -lsfml-window -lsfml-system
+g++ main.cpp -o circle_fall -lsfml-graphics -lsfml-window -lsfml-system
 ```
