@@ -1,21 +1,30 @@
-<h1>1. What This App:</h1>
-<h3>A Physics simulator</h3>
-<h1>2. mathematics & physics side</h1>
-  <p>
-    $$
+# 1. What is this app?
+A Physics Simulator.
+
+# 2. Mathematics & Physics Side
+$$
 \begin{aligned}
-V_x(t)=V_{0}\sin(\alpha) \\
-V_y(t)=V_0 \cos(\alpha) - gt \\
-that \,  in \, physics \, velocity \, equations \\
-h =\overrightarrow{MM'} \\
-M: Point \, of \, mouse \\
-M':Point \, of \, circle \\
-V0 =\sqrt{2gh} \\
+V_x(t) &= V_0 \sin(\alpha) \\
+V_y(t) &= V_0 \cos(\alpha) - g \cdot t \\
+\text{These are the } & \text{physics velocity equations:} \\
+h &= \|\overrightarrow{MM'}\| \\
+M &: \text{Point of mouse} \\
+M' &: \text{Point of circle} \\
+V_0 &= \sqrt{2gh}
 \end{aligned}
 $$
-  </p>
-<h1>3. How to use it:</h1>
-<h3>2.in your open cmd on windows or terminal on linux then copy this: </h3>
-<h4>./run.sh</h4>
-<h1>version:</h1>
-<h4>1.0.1</h4>
+
+# 3. How to use it:
+1. Open your terminal (Linux/macOS) or Git Bash (Windows) and clone the repository:
+```bash
+git clone https://github.com
+cd YOUR_REPO_NAME
+```
+2. Give execution permission (if on Linux) and run the script:
+```bash
+chmod +x run.sh
+./run.sh
+```
+
+# Version:
+`1.0.1`
