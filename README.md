@@ -14,17 +14,28 @@ V_0 &= \sqrt{2gh}
 \end{aligned}
 $$
 
-# 3. How to use it:
-1. Open your terminal (Linux/macOS) or Git Bash (Windows) and clone the repository:
-```bash
-git clone https://github.com
-cd YOUR_REPO_NAME
-```
-2. Give execution permission (if on Linux) and run the script:
-```bash
-chmod +x run.sh
-./run.sh
-```
-
 # Version:
 `1.0.1`
+
+# 6. Prerequisites & Installing SFML
+Before compiling the project, make sure you have **SFML** installed on your system:
+
+* **On Linux (Ubuntu/Debian):** Install directly via terminal:
+  ```bash
+  sudo apt-get update && sudo apt-get install libsfml-dev
+  ```
+  *(Watch step-by-step video guide: [How to install SFML on Linux](https://www.youtube.com/watch?v=Z7CAWvQN8oY))*
+
+* **On Windows:** Download the SDK from the [Official SFML Download Page](https://sfml-dev.org) and link it to your compiler.
+  *(Watch step-by-step video guide: [How to Setup SFML on Windows](https://www.youtube.com/watch?v=qvg8BXXWpCE))*
+
+# 7. How to Run
+1. Open your Terminal (Linux) or CMD (Windows) and navigate to the project folder:
+```bash
+cd your_file_path
+```
+
+2. Compile the code with SFML libraries linked:
+```bash
+g++ main.cpp -o physics_sim -lsfml-graphics -lsfml-window -lsfml-system
+```
