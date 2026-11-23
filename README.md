@@ -60,8 +60,8 @@ Download the SDK from the [Official SFML Download Page](https://sfml-dev.org) an
 ### 1. Clone & Compile
 Open your Terminal (Linux) or Command Prompt (Windows) and run:
 ```bash
-git clone https://github.com
-cd YOUR_REPO_NAME
+git clone https://github.com/sjmDeveloper/shell-simulator
+cd "shell-simulator"
 g++ main.cpp -o circle_fall -lsfml-graphics -lsfml-window -lsfml-system
 ```
 
